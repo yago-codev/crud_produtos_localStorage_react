@@ -1,20 +1,9 @@
 import React from "react";
 
+import Navbar from "./components/Navbar";
+
 function App() {
-  return (
-    <div className="alert alert-dismissible alert-warning">
-      <button type="button" className="close" data-dismiss="alert">
-        &times;
-      </button>
-      <h4 className="alert-heading">Warning!</h4>
-      <p className="mb-0">
-        Hello
-        <a href="/" className="alert-link">
-          &nbsp;Bootswatch
-        </a>
-      </p>
-    </div>
-  );
+  return <Navbar />;
 }
 
 export default App;
